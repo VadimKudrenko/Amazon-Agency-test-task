@@ -2,7 +2,7 @@
 
 ## 🚀 Live Preview
 
-[LIVE DEMO](https://vadimkudrenko.github.io/Amazon-Agency-test-task.git)
+[LIVE DEMO](https://vadimkudrenko.github.io/Amazon-Agency-test-task)
 
 ## Реалізація
 ### Стек технологій: React, Typescript, SCSS
