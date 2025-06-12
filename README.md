@@ -2,7 +2,7 @@
 
 ## 🚀 Live Preview
 
-[LIVE DEMO](https://vadimkudrenko.github.io/amazon-agency-test-task)
+[LIVE DEMO](https://vadimkudrenko.github.io/Amazon-Agency-test-task.git)
 
 ## Реалізація
 ### Стек технологій: React, Typescript, SCSS
@@ -21,7 +21,7 @@ Follow these steps to run the project locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/vadimkudrenko/silverino-shop.git
+git clone https://vadimkudrenko.github.io/Amazon-Agency-test-task.git
 cd silverino-shop
 
 npm install
