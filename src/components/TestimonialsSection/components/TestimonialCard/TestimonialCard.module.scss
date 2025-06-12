@@ -1,0 +1,45 @@
+@import '../../../../styles//utils/variables.scss';
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+
+  background-color: $white;
+  border: 1px solid $gray;
+  border-radius: 15px;
+
+  padding: 50px 30px 20px 30px;
+}
+
+.testimonial-card__company-logo-wrapper {
+  display: flex;
+  align-items: center;
+  height: 90px;
+
+  margin-bottom: 20px;
+}
+
+.testimonial-card__company-logo {
+  object-fit: contain;
+}
+
+.testimonial-card__person-wrapper {
+  display: flex;
+  gap: 15px;
+
+  margin-top: 45px;
+}
+
+.testimonial-card__person-photo {
+  width: 60px;
+  height: 60px;
+}
+
+.testimonial-card__person-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}

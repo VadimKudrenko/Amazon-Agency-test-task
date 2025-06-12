@@ -1,0 +1,137 @@
+@use '../../../../styles/utils/mixins.scss' as *;
+@import '../../.././../styles/utils/variables.scss';
+
+.testimonials-carousel-wrapper {
+  position: relative;
+}
+
+.testimonials-carousel__slide {
+  display: flex !important;
+  height: auto !important;
+}
+
+.testimonial-carousel__pagination {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+}
+
+:global(.testimonial-carousel__pagination) {
+  position: absolute;
+  width: fit-content !important;
+  left: 50% !important;
+  bottom: -40px !important;
+  transform: translateX(-50%);
+}
+
+:global(.testimonial-carousel__pagination .swiper-pagination-bullet) {
+  border-radius: 50px;
+  background-color: $light-gray !important;
+
+  width: 11px;
+  height: 11px;
+  opacity: 0.3;
+  transition: opacity $animation-duration;
+
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}
+
+:global(.testimonial-carousel__pagination .swiper-pagination-bullet-active) {
+  background-color: $dark !important;
+  opacity: 1;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+:global(.testimonial-carousel__nav-prev-btn) {
+  display: none;
+
+  @include on-desktop {
+    display: block;
+    position: absolute;
+    left: calc(-15px - $button-size);
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: $button-size;
+    height: $button-size;
+    border-radius: 100%;
+    background-color: $white;
+    border: 1px solid $light-gray;
+    opacity: 0.6;
+    transition: opacity $animation-duration;
+
+    z-index: 2;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 20px;
+      height: 20px;
+      border-left: 2px solid $dark;
+      border-bottom: 2px solid $dark;
+
+      transform: translate(-26%, -50%) rotate(45deg);
+      transition: $animation-duration;
+    }
+
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
+
+    &:hover::after {
+      transform: translate(-26%, -50%) rotate(45deg) scale(1.1);
+    }
+  }
+}
+
+:global(.testimonial-carousel__nav-next-btn) {
+  display: none;
+
+  @include on-desktop {
+    display: block;
+
+    position: absolute;
+    right: calc(-15px - $button-size);
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: $button-size;
+    height: $button-size;
+    border-radius: 100%;
+    background-color: $white;
+    border: 1px solid $light-gray;
+    opacity: 0.6;
+    transition: opacity $animation-duration;
+
+    z-index: 2;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 20px;
+      height: 20px;
+      border-left: 2px solid $dark;
+      border-bottom: 2px solid $dark;
+
+      transform: translate(-74%, -50%) rotate(225deg);
+      transition: $animation-duration;
+    }
+
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
+
+    &:hover::after {
+      transform: translate(-74%, -50%) rotate(225deg) scale(1.1);
+    }
+  }
+}

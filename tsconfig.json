@@ -5,6 +5,13 @@
   ],
   "compilerOptions": {
     "sourceMap": false,
-    "types": ["node"]
+    "types": ["node"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "module": "ESNext",
+    "target": "ES6",
+    "jsx": "react-jsx"
   }
 }

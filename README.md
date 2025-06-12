@@ -1,9 +1,35 @@
-# React TypeScript Starter Pack
+# Amazon Agency Test Task
 
-To use this template click `Use this template`
+## 🚀 Live Preview
 
-### Available Scripts
+[LIVE DEMO](https://vadimkudrenko.github.io/amazon-agency-test-task)
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+## Реалізація
+### Стек технологій: React, Typescript, SCSS
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+В моєму рішенні, я зробив упор на функціональності, перевикористанні, зрозумілій архітектурі файлів і простоту в розумінні логіки компонентів.
+Вирішив покращити реалізацію завдання й зробив імітацію запиту на сервер, та обробку вже отриманих відгуків від клієнтів.
+Такий підхід допомагає в масштабуванні та перевикористанні цього компоненту.
+
+JSON файл з відгуками знаходиться у public > api > testimonials.json
+
+
+## 🧰 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vadimkudrenko/silverino-shop.git
+cd silverino-shop
+
+npm install
+# or
+yarn install
+
+npm start
+# or
+yarn start
+
+```

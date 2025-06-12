@@ -1,3 +1,5 @@
-.starter {
-  font-size: 18px;
-}
+@use './styles/normalize.scss';
+@use './styles/fonts/fonts.scss';
+@use './styles/utils/typography.scss';
+
+@use './styles/main.scss';
