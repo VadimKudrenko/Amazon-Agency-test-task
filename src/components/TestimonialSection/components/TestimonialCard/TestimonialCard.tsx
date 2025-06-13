@@ -23,11 +23,11 @@ export const TestimonialCard: React.FC<Props> = ({ testimonial }) => {
         <div className="testimonial-card__person-photo-wrapper">
           <img
             className={styles['testimonial-card__person-photo']}
-            src={`${VITE_BASE_URL}/${testimonial.personPhoto}`}
+            src={`${VITE_BASE_URL}/${testimonial.personPhotoSrc}`}
           ></img>
         </div>
         <div className={styles['testimonial-card__person-info']}>
-          <h3>{testimonial.personnFullName}</h3>
+          <h3>{testimonial.personFullName}</h3>
           <p className="main-text main-text--black">
             {testimonial.personDetails}
           </p>

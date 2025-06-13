@@ -2,7 +2,7 @@ export interface Testimonial {
   id: number;
   companyLogoSrc: string;
   text: string;
-  personPhoto: string;
-  personnFullName: string;
+  personPhotoSrc: string;
+  personFullName: string;
   personDetails: string;
 }

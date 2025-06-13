@@ -3,48 +3,48 @@
     "id": 1,
     "companyLogoSrc": "/img/testimonials/compony-logos/company-logo-1.jpg",
     "text": "Sales Fortuna made managing sales easier and helped us focus on customers. Its tools have been crucial for our growth and client satisfaction.",
-    "personPhoto": "/img/testimonials/perosons-photo/person-photo-1.jpg",
-    "personnFullName": "Ethan Morgan",
+    "personPhotoSrc": "/img/testimonials/perosons-photo/person-photo-1.jpg",
+    "personFullName": "Ethan Morgan",
     "personDetails": "Founder and CEO, Serene Living Products"
   },
   {
     "id": 2,
     "companyLogoSrc": "/img/testimonials/compony-logos/company-logo-2.jpg",
     "text": "Sales Fortuna has made sales so much easier for us. It saves time, simplifies the whole process, and helps us land more deals without extra hassle.",
-    "personPhoto": "/img/testimonials/perosons-photo/person-photo-2.jpg",
-    "personnFullName": "Olivia Hayes",
+    "personPhotoSrc": "/img/testimonials/perosons-photo/person-photo-2.jpg",
+    "personFullName": "Olivia Hayes",
     "personDetails": "Owner, Starlight Creations"
   },
   {
     "id": 3,
     "companyLogoSrc": "/img/testimonials/compony-logos/company-logo-3.jpg",
     "text": "Sales Fortuna has simplified our lead generation, helping us attract qualified prospects effortlessly and drive consistent growth.",
-    "personPhoto": "/img/testimonials/perosons-photo/person-photo-3.jpg",
-    "personnFullName": "Alexander Reed",
+    "personPhotoSrc": "/img/testimonials/perosons-photo/person-photo-3.jpg",
+    "personFullName": "Alexander Reed",
     "personDetails": "Co-Founder, Opulent Living Group"
   },
   {
     "id": 4,
     "companyLogoSrc": "/img/testimonials/compony-logos/company-logo-1.jpg",
     "text": "Sales Fortuna made managing sales easier and helped us focus on customers. Its tools have been crucial for our growth and client satisfaction.",
-    "personPhoto": "/img/testimonials/perosons-photo/person-photo-1.jpg",
-    "personnFullName": "Ethan Morgan",
+    "personPhotoSrc": "/img/testimonials/perosons-photo/person-photo-1.jpg",
+    "personFullName": "Ethan Morgan",
     "personDetails": "Founder and CEO, Serene Living Products"
   },
   {
     "id": 5,
     "companyLogoSrc": "/img/testimonials/compony-logos/company-logo-2.jpg",
     "text": "Sales Fortuna has made sales so much easier for us. It saves time, simplifies the whole process, and helps us land more deals without extra hassle.",
-    "personPhoto": "/img/testimonials/perosons-photo/person-photo-2.jpg",
-    "personnFullName": "Olivia Hayes",
+    "personPhotoSrc": "/img/testimonials/perosons-photo/person-photo-2.jpg",
+    "personFullName": "Olivia Hayes",
     "personDetails": "Owner, Starlight Creations"
   },
   {
     "id": 6,
     "companyLogoSrc": "/img/testimonials/compony-logos/company-logo-3.jpg",
     "text": "Sales Fortuna has simplified our lead generation, helping us attract qualified prospects effortlessly and drive consistent growth.",
-    "personPhoto": "/img/testimonials/perosons-photo/person-photo-3.jpg",
-    "personnFullName": "Alexander Reed",
+    "personPhotoSrc": "/img/testimonials/perosons-photo/person-photo-3.jpg",
+    "personFullName": "Alexander Reed",
     "personDetails": "Co-Founder, Opulent Living Group"
   }
 ]
